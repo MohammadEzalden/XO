@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">XO</string>
+    <string name="online">OnLine</string>
+    <string name="offline">OffLine</string>
 </resources>

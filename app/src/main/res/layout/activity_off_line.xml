@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".offline.OffLineActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b00"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/b01"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/b02"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/b11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/b12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b20"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/b21"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/b22"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/restart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="restart"
+                android:onClick="restartFunction"/>
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
